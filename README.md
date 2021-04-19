@@ -1,1 +1,1 @@
-[Amanita19/Lab2 (github.com)](https://github.com/Amanita19/Lab2)
+[Amanita19/Lab3 (github.com)](https://amanita19.github.io/sp21-cse110-lab3/index)
