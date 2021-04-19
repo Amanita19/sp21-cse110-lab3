@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next LT Pro Regular"), url("./ursine/AvenirNextLTPro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  font-style: italic;
+  font-weight: normal;
+  src: local("Avenir Next LT Pro It"), url("./ursine/AvenirNextLTPro-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  font-style: normal;
+  font-weight: bold;
+  src: local("Avenir Next LT Pro Demi"), url("./ursine/AvenirNextLTPro-Demi.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  font-style: italic;
+  font-weight: bold;
+  src: local("Avenir Next LT Pro DemiIt"), url("./ursine/AvenirNextLTPro-DemiItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Adelle';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Adelle Light"), url("./ursine/Adelle-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Adelle';
+  font-style: italic;
+  font-weight: normal;
+  src: local("Adelle Light Italic"), url("./ursine/Adelle-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Adelle';
+  font-style: normal;
+  font-weight: bold;
+  src: local("Adelle SemiBold"), url("./ursine/Adelle-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Adelle';
+  font-style: italic;
+  font-weight: bold;
+  src: local("Adelle SemiBold Italic"), url("./ursine/Adelle-SemiBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Fira Mono Regular"), url("./ursine/FiraMono-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: bold;
+  src: local("Fira Mono Bold"), url("./ursine/FiraMono-Bold.ttf") format("ttf");
+}
+
+html, body {
+  font-family: 'Avenir Next LT Pro', 'Lato', sans-serif;
+}
+
+body {
+  font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Adelle', 'Times New Roman', serif;
+}
+
+p {
+  margin: .5rem 0;
+}
+
+a {
+  color: #db4d52;
+}
+
+del {
+  color: #b4b4b4;
+}
+
+mark {
+  padding: 0 2px 2px;
+  background: #FAD7A0;
+  color: inherit;
+}
+
+blockquote {
+  position: relative;
+  padding: 7px 14px 7px 14px;
+  background-color: #eeeeee;
+  border-radius: 3px;
+  color: var(--text-color);
+}
+
+blockquote::before {
+  content: '';
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  height: 100%;
+  width: 4px;
+  background: #db4d52;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+code,
+.md-fences,
+tt {
+  font-family: 'Fira Mono', 'Cousine', 'Consolas', monospace;
+  font-size: 1rem;
+}
+
+code {
+  font-size: .9em;
+  border: 1px solid #0000001a;
+  border-radius: .25rem;
+  padding: 1px .25rem;
+  background: #fafafa;
+}
+
+
+hr {
+  border-color: #b4b4b4;
+}
+
+table {
+  border: 1px solid #b4b4b4;
+  margin: 1rem 0;
+}
+
+table tr:nth-child(2n) {
+  background: #ddd;
+}
+
+thead {
+  background: #ddd;
+}
+
+td, th {
+  padding: .35rem .7rem;
+  border: 1px solid #b4b4b4;
+}
